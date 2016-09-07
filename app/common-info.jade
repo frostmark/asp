@@ -1,0 +1,29 @@
+extends layouts/default
+block bg
+  style.
+    .main_image {
+      background: url(../images/bg/bur.png) no-repeat 50% 0;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+    }
+
+block top_content
+  .top-content.full_height
+    .header
+      | общая информация
+    .body
+      | Общество с ограниченной ответственностью «АПС» является современной, динамично развивающейся организацией, специализирующейся на выполнении работ по защите металлических, железобетонных строительных конструкций и оборудования в нефтегазовой отрасли.
+    .footer
+      img(src="images/pdf.png")
+      a(href="#") Посмотреть презентацию
+    .arrow_down
+      img(src="images/arrow_down.png")
+    .sign
+      //- button.button Подписаться
+block content
+  .row
+    .col-md-6
+      img(src="images/c_info_")

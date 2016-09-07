@@ -1,0 +1,28 @@
+.top-content {
+  margin-top: 20%;
+  width: 615px;
+  position: relative;
+  .header {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+  }
+  .body{
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .footer {
+    margin-top: 18px;
+    font-size: 13px;
+    img {
+      margin-right: 10px;
+      position: relative;
+      top: -4px;
+    }
+  }
+  .arrow_down{
+    position: absolute;
+    bottom: 355px;
+  }
+}

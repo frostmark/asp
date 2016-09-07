@@ -1,16 +1,28 @@
 extends layouts/default
+block bg
+  style.
+    .main_image {
+      background: url(../images/bg/main_page.png) no-repeat 50% 0;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+    }
 
-block content
-  .row.marketing
-    .col-lg-6
-      h4 HTML5 Boilerplate 1234
-      p HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+block top_content
+  .owl-carousel#main-slider
+      div.first-item
+        .header Здоровье и красота
+        .content Ваших зданий и сооружений
+      div.second-item
+        .header О КОМПАНИИ
+        .content
+          div ООО "АПС" была основана в 2009г. в Санкт-Петербурге.
+          p
+            | Все эти годы компания активно развивалась. На сегодняшний день мы предлагаем полный спектр услуг по защите металлических и железобетонных конструкций. Наша компания ведет свою деятельность на Крайнем Севере, Дальнем Востоке, а также в регионах Центральной части России.
+          p
+            | Мы выполняем полный комплекс антикоррозийных работ в разных отраслях промышленности: строительной, судостроительной, транспортной, машиностроительный, химической и нефтегазовой.
+          p
+            | Опытные специалисты нашей компании работают с лакокрасочными материалами отечественных и зарубежных производителей, одобренными ВНИИСТ: "Стилпейнт", "Хемпель", "Амерон", "Текнос", "Колон", "Интернешнл", "Йотун", "Тиккурила" и другими. Высокотехнологичные свойства используемых нами материалов, гарантируют высокое качество лакокрасочного покрытия сроком до пяти лет.
 
-      h4 Sass
-      p Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
-
-      h4 Bootstrap
-      p Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
-
-      h4 Modernizr
-      p Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.
