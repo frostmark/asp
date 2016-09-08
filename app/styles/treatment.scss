@@ -1,0 +1,41 @@
+.t-info{
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.t-subinfo{
+  background:url(../images/t-bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  .inner{
+    background:rgba(0,0,0,.5);
+  }
+  .content{
+    padding-top: 36px;
+    padding-top: 36px;
+  }
+  .info{
+    line-height: 31px;
+    padding-bottom: 16px;
+    font-weight: 300;
+  }
+  font-size: 16px;
+  .general-sign{
+    padding-top: 16px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgba(255,255,255,.3);
+    font-style: italic;
+    font-weight: 400;
+    .sibsign{
+      font-weight: 300;
+      margin-top: 5px;
+    }
+  }
+}
+
+.t-info-wrapper{
+  position: relative;
+  .lang_item{
+    color:#222222;
+  }
+}
