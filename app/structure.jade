@@ -1,0 +1,29 @@
+extends layouts/default
+block bg
+  style.
+    .main_image {
+      background: url(../images/bg/org.png) no-repeat 50% 0;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+    }
+
+block top_content
+  .top-content.full_height
+    .header
+      | Организационная структура
+    .body
+      p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni rem non, optio amet ut. A magni reprehenderit quas, placeat adipisci nostrum, mollitia amet obcaecati accusamus alias, at quos dignissimos itaque.
+    .arrow_down
+      img(src="images/arrow_down.png")
+block content
+  .org-wrapper
+    .lang_item
+      | RU
+    .container
+      .row.org
+        .col-md-12
+          img(src="images/org-scheme.png")
+
