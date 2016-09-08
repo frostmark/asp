@@ -1,0 +1,37 @@
+.m-info{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  .photo{
+    position: relative;
+    left: 30px;
+  }
+  .citate{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    .qleft{
+      margin-left: 40px;
+      margin-right: 10px;
+      position: relative;
+      top: -10px;
+    }
+    .qright{
+      margin-left: 10px;
+      position: relative;
+      top: 10px;
+    }
+  }
+}
+.m-wrapper{
+  font-weight: 300;
+  position: relative;
+  .lang_item{
+    // position: absolute;
+    // top: 10px;
+    // right: 10px;
+    color:#222222;
+  }
+}
