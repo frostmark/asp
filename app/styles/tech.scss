@@ -1,0 +1,32 @@
+.tech-content{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: 300;
+}
+.tech-info-wrapper{
+  background: url(../images/tech-info.png) no-repeat 50% 0;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  .col-first{
+    border-right: 1px solid rgba(255,255,255,.3);
+  }
+
+  .tech-info{
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align:center;
+    .number{
+      font-size: 33px;
+      font-weight: 500;
+    }
+    .item{
+      width: 315px;
+      margin: 0 auto;
+    }
+  }
+}
+.tech-wrapper{
+  font-weight: 300;
+}

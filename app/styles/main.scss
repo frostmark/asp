@@ -4,8 +4,9 @@ $icon-font-path: '../fonts/';
 @import "nav_button.scss";
 @import "common_info.scss";
 @import "treatment.scss";
+@import "tech.scss";
 // endbower
-@import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i&subset=cyrillic-ext';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500&subset=cyrillic-ext';
 $base_font: 1em;
 html,
 body {
@@ -59,7 +60,7 @@ $blue: #325491;
 }
 a, a:visited {
     color: #fff;
-    &:hover, &:link {
+    &:hover {
         text-decoration: none;
         color: #02aeea;
         cursor: pointer;

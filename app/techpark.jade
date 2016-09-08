@@ -1,0 +1,43 @@
+extends layouts/default
+block bg
+  style.
+    .main_image {
+      background: url(../images/bg/tech-bg.png) no-repeat 50% 0;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+    }
+
+block top_content
+  .top-content.full_height
+    .header
+      | Парк техники
+    .body
+      p ООО «АПС» располагает крупным парком современной строительной техники и специализированного оборудования
+    .arrow_down
+      img(src="images/arrow_down.png")
+block content
+  .tech-wrapper
+    .container
+      .row.tech-content
+        .col-md-6
+          | Вместе с уникальными технологиями и многолетним опытом работы на рынке это позволяет компании успешно выполнять высокотехнологичные инфраструктурные проекты, гарантируя безопасность, надежность и высокое качество работ даже в самых сложных климатических условиях.
+
+        .col-md-6
+          | Каждый год ООО «АПС» инвестирует в обновление и расширение парка. В 2015 г. размер парка техники увеличился на 15% по сравнению с 2012 г. Компания планирует сохранить эту динамику, гарантируя заказчикам высокий уровень качества и производительности.
+    .tech-info-wrapper
+      .tech-info
+        .container
+          .row
+            .col-md-6.col-first
+              .item
+                div Около
+                .number 2000
+                div единиц техники и оборудования от лучших мировых производителей, таких как Liebherr, Mercedes-Benz, Atlas Copco, GRACO, CLEMCO
+            .col-md-6
+              .item
+                div Более
+                .number 100
+                div  единиц cобственных лабораторий и энергетических оборудований, а также мобильных зданий и сооружений
