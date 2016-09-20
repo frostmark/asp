@@ -21,10 +21,10 @@ $(document).ready(function() {
     });
 
 
-    $("#main-slider").owlCarousel({
+    $('#main-slider').owlCarousel({
       navigationText: [
-      "<span class='control-wrapper'><img class='slider-controls' src='images/arrow_left.png'></span>",
-      "<span  class='control-wrapper'><img class='slider-controls' src='images/arrow_right.png'></span>"],
+      '<span class=\'control-wrapper\'><img class=\'slider-controls\' src=\'images/arrow_left.png\'></span>',
+      '<span  class=\'control-wrapper\'><img class=\'slider-controls\' src=\'images/arrow_right.png\'></span>'],
       navigation : true,
       dots: true,
       singleItem:true

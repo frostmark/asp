@@ -7,6 +7,7 @@ $icon-font-path: '../fonts/';
 @import "tech.scss";
 @import "mission.scss";
 @import "structure.scss";
+@import "tender.scss";
 // endbower
 @import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500&subset=cyrillic-ext';
 $base_font: 1em;
@@ -233,7 +234,7 @@ header {
         }
         .content {
             width: 614px;
-            font-size: 13px;
+            font-size: 14px;
         }
     }
 }

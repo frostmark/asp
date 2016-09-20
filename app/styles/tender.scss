@@ -1,0 +1,47 @@
+.tend-mid-info{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tend-sub-info{
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url(../images/t-info.png) no-repeat 50% 0;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 300;
+}
+.tend-bot-info {
+  margin-top: 50px;
+  table{
+    color: #272727;
+    width: 100%;
+    border:1px solid #eeeeee;
+    margin-bottom: 83px;
+    img {
+      margin-right: 8px;
+    }
+    a{
+      text-decoration: underline;
+      color: #272727;
+    }
+    thead{
+      background: #325491;
+      color:#fff;
+      td{
+        padding: 8px 27px 8px 27px;
+      }
+    }
+    td{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    .doc{
+      width: 20%;
+    }
+  }
+}
