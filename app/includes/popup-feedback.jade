@@ -3,20 +3,14 @@
     div.modal-content
       div.modal-header
         button.close(type='button', data-dismiss='modal', aria-label='Close')
-        h4.modal-title Обратная связь
+        h4.modal-title Заказать звонок
       form
         div.modal-body
           div.form-group
             label.form-control-label(for='full-name') ФИО
             input.form-control#full-name(name='full-name')
           div.form-group
-            label.form-control-label(for='email') E-mail
-            input.form-control#email(name='email')
-          div.form-group
-            label.form-control-label(for='subject') Тема сообщения
-            input.form-control#subject(name='subject')
-          div.form-group
-            label.form-control-label(for='message') Текст сообщения
-            textarea.form-control#message(name='message',rows="4")
+            label.form-control-label(for='phone') Номер телефона
+            input.form-control#email(name='phone')
         div.modal-footer
           input.button.blue(type='submit',value='Отправить')

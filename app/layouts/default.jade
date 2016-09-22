@@ -49,13 +49,14 @@ html.no-js
       .inner
         .container.main_container
           .social-container
-            button.button Подписаться
+            button.button(data-toggle='modal', data-target='#subscription-popup') Подписаться 
           include ../includes/header.jade
           block top_content
 
 
     block content
     include ../includes/footer.jade
+    include ../includes/popup-subscription.jade
     include ../includes/popup-feedback.jade
 
     // Google Analytics: change UA-XXXXX-X to be your site's ID.
